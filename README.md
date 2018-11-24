@@ -1,8 +1,9 @@
 This project stores timestamps once a motion is detected through a nodeMCU and PIR sensor. Additionally this device requires zero configuration:
 	* The ip Address and the port is automatically  acquired using mDNS/DNS-SD 
 	https://pypi.org/project/zeroconf/
+	 * Automatic configuration of wifi using an open source project https://github.com/egzola/ESP8266-ScreenSetWifi.git which tries to transfer wifi credential to iot devices using LIFI technology 
 
-    * Automatic configuration of wifi using an open source project https://github.com/egzola/ESP8266-ScreenSetWifi.git which tries to transfer wifi credential to iot devices using LIFI technology 
+   
 
 How to start this project
 
