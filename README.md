@@ -14,13 +14,13 @@ PIR Sensor: gnd pin -> gnd | vcc pin -> vcc | out pin -> GPIO 13
 
 sudo python server.py
 
-4* add the Lifi/ESP8266-screenSetWifi-master.zip lib to arduino
+3* add the Lifi/ESP8266-screenSetWifi-master.zip lib to arduino
 and upload the client/client.ino code to the nodeMCU
 
-3* configure wifi credentials 
+4* configure wifi credentials 
 
 open /lifi/screenSetWifi.html with chrome, follow the steps.
 
-4* (option step) to view the timeStamps 
+5* (option step) to view the timeStamps 
 
 open in chrome http://192.168.1.15:5000/printData
