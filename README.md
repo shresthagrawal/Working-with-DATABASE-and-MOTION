@@ -1,4 +1,8 @@
-This project stores timestamps once a motion is detected through a nodeMCU and PIR sensor. Additionally to make this device even better an easier to configure I have tried to implement  an open source project https://github.com/egzola/ESP8266-ScreenSetWifi.git which tries to transfer wifi credential to iot devices using LIFI technology 
+This project stores timestamps once a motion is detected through a nodeMCU and PIR sensor. Additionally this device requires zero configuration:
+	* The ip Address and the port is automatically  acquired using mDNS/DNS-SD 
+	https://pypi.org/project/zeroconf/
+
+    * Automatic configuration of wifi using an open source project https://github.com/egzola/ESP8266-ScreenSetWifi.git which tries to transfer wifi credential to iot devices using LIFI technology 
 
 How to start this project
 
@@ -11,7 +15,7 @@ LDR: pin 1 -> vcc | pin 2 -> GPIO 5
 PIR Sensor: gnd pin -> gnd | vcc pin -> vcc | out pin -> GPIO 13
 
 2*  start the server 
-
+change the IP address to your local IP 
 sudo python server.py
 
 3* add the Lifi/ESP8266-screenSetWifi-master.zip lib to arduino
