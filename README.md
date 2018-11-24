@@ -28,4 +28,5 @@ open /lifi/screenSetWifi.html with chrome, follow the steps.
 
 5* (option step) to view the timeStamps 
 
-open in chrome http://192.168.1.15:5000/printData
+open in chrome http://<ip>:5000/printData
+to clear data: http://<ip>:5000/clearData
